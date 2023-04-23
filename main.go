@@ -4,5 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println("Olá mundo aí vou eu!!!")
+	fmt.Printf("Teste Git")
 
 }
