@@ -1,3 +1,6 @@
 go 1.20
 
-use .\1-Pacotes\
+use (
+	"./19-Testes Automatizados/19.1-Introducao"
+	/1-Pacotes
+)
