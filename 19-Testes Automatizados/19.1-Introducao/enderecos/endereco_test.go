@@ -13,7 +13,7 @@ func TestTipoDeEndereco(t *testing.T) {
 		{"rua 1", "rua"},
 		{"avenida 1", "avenida"},
 		{"rua 2", "rua"},
-		{"rodovia 3", "rua"},
+		{"rodovia 3", "rodovia"},
 	}
 
 	for _, cenario := range cenariosDeTeste {
