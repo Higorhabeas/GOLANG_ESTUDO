@@ -18,7 +18,7 @@ func TipoDoEndereco(endereco string) string {
 	}
 
 	if enderecotemtipovalido {
-		return strings.ToTitle(primeiraPalavradoEndereco)
+		return primeiraPalavradoEndereco
 	}
 	return "Tipo de enddereço inválido!"
 
