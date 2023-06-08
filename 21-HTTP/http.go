@@ -10,7 +10,7 @@ func main() {
 	/* cliente faz a requisição - servidor processa a requisição e envia a resposta
 	Request - Response
 
-	as rotas são os caminhos : URI - Identificador do Recurso
+	as rotas são os caminhos : URI - Identificador do Recurso(/home,/usuarios...)
 								método - GET (busca dados), POST(cadastrar dados), PUT(atualizar dados), DELETE(apagar)
 	*/
 
