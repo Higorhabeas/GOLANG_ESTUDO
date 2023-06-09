@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        h2{
+            color:blue;
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h2>
         Página Principal
     </h2>
+   
+
+    <button id="botao">
+        Clica em Mim!!!
+    </button>
+
+    <script>
+        var variavel=document.getElementById("botao");
+        variavel.onclik =function() {
+            alert("Botão clicado com sucesso!!!")
+        }
+    </script>
+
     <h4>
         Seja bem vindo!!! , {{.Nome}}
     </h4>
