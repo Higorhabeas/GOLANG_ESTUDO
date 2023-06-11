@@ -12,7 +12,6 @@ func Conctar() (*sql.DB, error) {
 	db, erro := sql.Open("mysql", stringConexao)
 	if erro != nil {
 		return nil, erro
-
 	}
 	if db.Ping(); erro != nil {
 		return nil, erro
