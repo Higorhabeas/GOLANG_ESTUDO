@@ -1,6 +1,8 @@
 go 1.20
 
 use (
+	"./24-Crud Basico"
+	"./23-Banco de Dados"
 	"./lendo_oracle"
 	"./19-Testes Automatizados/19.2-Testes_Avancados"
 	"./19-Testes Automatizados/19.1-Introducao"
